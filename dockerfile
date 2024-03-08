@@ -13,5 +13,4 @@ RUN git clone https://komalahire27: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@gith
 RUN pip install pytest
 
 # Set the entry point for running tests
-CMD ["pytest", "test_sample.py"]
-~                               
+CMD ["pytest", "test_sample.py"]                              
