@@ -13,4 +13,4 @@ RUN apt-get update && apt-get install -y git
 RUN pip install pytest
 
 # Set the entry point for running tests
-CMD ["pytest", "test_sample.py"]                              
+#CMD ["pytest", "test_sample.py"]                              
